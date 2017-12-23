@@ -34,8 +34,7 @@
 [class^="icon-"], [class*=" icon-"],
 [class^="icon-line-"], [class*=" icon-line-"],
 [class^="icon-line2-"], [class*=" icon-line2-"],
-.side-header #primary-menu ul > li.sub-menu > a:after,
-#primary-menu ul ul > li.sub-menu > a:after {
+.side-header #primary-menu ul > li.sub-menu > a:after {
 	display: inline-block;
 	font-family: 'font-icons';
 	speak: none;
@@ -87,7 +86,7 @@
 	margin: 5px 0 5px 25px;
 }
 
-.iconlist > li [class^="icon-"], .iconlist > li [class*=" icon-"] {
+.iconlist > li [class^="icon-"]:first-child, .iconlist > li [class*=" icon-"]:first-child {
 	position: absolute;
 	left: -1.75em;
 	width: 1.75em;
