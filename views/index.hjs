@@ -8,25 +8,59 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
-	<!-- <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-	<link rel="stylesheet" href="css/calendar.css" type="text/css" />
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" /> -->
 
-    <link rel="stylesheet" href="/dist/css/style.min.css" type="text/css" />
-	
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
 
+	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
+
 	<!-- Document Title
 	============================================= -->
-	<title>Food Tours of New York</title>
+	<title>Food Tours | New York</title>
+
+	<style>
+
+		.revo-slider-emphasis-text {
+			font-size: 64px;
+			font-weight: 700;
+			letter-spacing: -1px;
+			font-family: 'Raleway', sans-serif;
+			padding: 15px 20px;
+			border-top: 2px solid #FFF;
+			border-bottom: 2px solid #FFF;
+		}
+
+		.revo-slider-desc-text {
+			font-size: 20px;
+			font-family: 'Lato', sans-serif;
+			width: 650px;
+			text-align: center;
+			line-height: 1.5;
+		}
+
+		.revo-slider-caps-text {
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 3px;
+			font-family: 'Raleway', sans-serif;
+		}
+		.tp-video-play-button { display: none !important; }
+
+		.tp-caption { white-space: nowrap; }
+
+	</style>
 
 </head>
 
@@ -36,9 +70,215 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
+		<section id="slider" class="slider-parallax revslider-wrap full-screen clearfix">
+
+			<!--
+			#################################
+				- THEMEPUNCH BANNER -
+			#################################
+			-->
+			<div class="tp-banner-container">
+				<div class="tp-banner" >
+					<ul>    <!-- SLIDE  -->
+						<li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/restaurant/slider/thumb/2.jpg" data-delay="12000"  data-saveperformance="off" data-title="Delicious Recipes">
+							<!-- MAIN IMAGE -->
+							<img src="images/restaurant/slider/2.jpg"  alt="kenburns1"  data-bgposition="left center" data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right center">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
+							data-x="600"
+							data-y="215"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1000"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;">Explore</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
+							data-x="597"
+							data-y="230"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1200"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; font-size: 60px;">Food Tours of NY</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"
+							data-x="600"
+							data-y="340"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1400"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; max-width: 550px; white-space: normal;">New York Food Tours helps you enjoy the ultimate New York food and culture experience from a local’s point of view!</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+							data-x="600"
+							data-y="450"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1550"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="#" class="button button-white button-light button-border button-large button-rounded tright nomargin"><span>Learn More</span> <i class="icon-angle-right"></i></a></div>
+
+						</li>
+						<!-- SLIDE  -->
+						<li data-transition="slidedown" data-slotamount="1" data-masterspeed="1500" data-thumb="images/restaurant/slider/thumb/1.jpg" data-delay="10000"  data-saveperformance="off"  data-title="Book your Tables">
+							<!-- MAIN IMAGE -->
+							<img src="images/restaurant/slider/1.jpg"  alt="kenburns6"  data-bgposition="center top" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="120" data-scaleend="100" data-bgpositionend="center center">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
+							data-x="0"
+							data-y="215"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1000"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; color: #222;">Experience</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
+							data-x="-3"
+							data-y="230"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1200"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; color: #222; font-size: 60px;">Food Tours of New York</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"
+							data-x="0"
+							data-y="340"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1400"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; color: #222; max-width: 550px; white-space: normal;">We offer unique and entertaining walking, tasting, and discovery food tours to residents and visitors from around the world.</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+							data-x="0"
+							data-y="450"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1550"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="#" class="button button-3d button-black button-large button-rounded tright nomargin" style="color: #FFF;"><span>Join a tour</span> <i class="icon-angle-right"></i></a></div>
+
+						</li>
+						<!-- SLIDE  -->
+						<li class="dark" data-transition="slideleft" data-slotamount="1" data-masterspeed="1500" data-thumb="images/restaurant/slider/thumb/3.jpg" data-delay="12000"  data-saveperformance="off"  data-title="Full Featured Menu">
+							<!-- MAIN IMAGE -->
+							<img src="images/restaurant/slider/3.jpg"  alt="kenburns3"  data-bgposition="left top" data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right bottom">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
+							data-x="440"
+							data-y="215"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1000"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;">Enjoy more from</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
+							data-x="287"
+							data-y="230"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1200"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;">Food Tours of New York</div>
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text"
+							data-x="245"
+							data-y="340"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1400"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3; max-width: 650px; white-space: normal;">We arrange cooking classes, party banquets, and exclusive behind-the-scene restaurant visits</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+							data-x="496"
+							data-y="450"
+							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+							data-speed="800"
+							data-start="1550"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="#" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span>Share</span> <i class="icon-angle-right"></i></a></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</section>
+
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header">
+		<header id="header">
 
 			<div id="header-wrap">
 
@@ -46,103 +286,88 @@
 
 					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
-					<!-- Logo
-					============================================= -->
-					<!-- 
-					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/restaurant/6.jpg"><img src="images/restaurant/6.jpg" alt="Canvas Logo"> </a>
-						
-					</div>
-                    -->
 					<!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu">
+					<nav id="primary-menu" class="style-5">
 
-						<ul>
-							<li><a href="#"><div>Home</div></a>
-								
-							</li>
-							<li class="current"><a href="#"><div>Tours</div></a>
+						<ul class="norightborder norightpadding norightmargin">
+							<li class="current"><a href="#"><div><i class="icon-home2"></i>Home</div></a>
 								<ul>
-									<li><a href="#"><div><i class="icon-stack"></i>Lookup By...</div></a>
+									<li><a href="index-corporate.html"><div>Home - Corporate</div></a>
 										<ul>
-											<li><a href="#"><div>-Neighborhood</div></a>
-												<ul>
-													<li><a href="#"><div>East Village (Multiculture)</div></a></li>
-													<li><a href="#"><div>China/Asian town</div></a></li>
-													<li><a href="#"><div>Greenwich, West Village</div></a></li>
-													<li><a href="#"><div>NoHo, Union Square, Flatiron District</div></a></li>
-													
-												</ul>
-											</li>
-											<li><a href="#"><div>Cuisine</div></a>
-												<ul>
-													<li><a href="#"><div>International</div></a></li>
-													<li><a href="#"><div>Asian</div></a></li>
-													<li><a href="#"><div>Dessert</div></a></li>
-													<li><a href="#"><div>Vegetarian</div></a></li>
-													<li><a href="#"><div>Wine & Beer </div></a></li>
-													
-												</ul>
-											</li>
-											<li><a href="#"><div>Season</div></a>
-												
-											</li>
-											<li><a href="#"><div>Calendar</div></a>
-												
-											</li>
-											
-											
+											<li><a href="index-corporate.html"><div>Corporate - Layout 1</div></a></li>
+											<li><a href="index-corporate-2.html"><div>Corporate - Layout 2</div></a></li>
+											<li><a href="index-corporate-3.html"><div>Corporate - Layout 3</div></a></li>
+											<li><a href="index-corporate-4.html"><div>Corporate - Layout 4</div></a></li>
 										</ul>
 									</li>
-									<li><a href="#"><div><i class="icon-gift"></i>All</div></a>
+									<li><a href="index-portfolio.html"><div>Home - Portfolio</div></a>
 										<ul>
-											
+											<li><a href="index-portfolio.html"><div>Portfolio - Layout 1</div></a></li>
+											<li><a href="index-portfolio-2.html"><div>Portfolio - Layout 2</div></a></li>
+											<li><a href="index-portfolio-3.html"><div>Portfolio - Masonry</div></a></li>
+											<li><a href="index-portfolio-4.html"><div>Portfolio - AJAX</div></a></li>
 										</ul>
 									</li>
-									<li><a href="#"><div><i class="icon-umbrella"></i>Private Tour</div></a>
+									<li><a href="index-blog.html"><div>Home - Blog</div></a>
 										<ul>
-											<li><a href="#"><div>Request Form</div></a></li>
-											<li><a href="#"><div>Order Form</div></a></li>
-											
-											
+											<li><a href="index-blog.html"><div>Blog - Layout 1</div></a></li>
+											<li><a href="index-blog-2.html"><div>Blog - Layout 2</div></a></li>
+											<li><a href="index-blog-3.html"><div>Blog - Layout 3</div></a></li>
 										</ul>
 									</li>
-									<li><a href="#"><div><i class="icon-line-layout"></i>Gift Certificate</div></a>
-										
+									<li><a href="index-shop.html"><div>Home - Shop</div></a>
+										<ul>
+											<li><a href="index-shop.html"><div>Shop - Layout 1</div></a></li>
+											<li><a href="index-shop-2.html"><div>Shop - Layout 2</div></a></li>
+										</ul>
 									</li>
-									<li><a href="#"><div><i class="icon-line-columns"></i>Specials</div></a></li>
-									<li><a href="#"><div><i class="icon-align-justify2"></i>Discounts</div></a>
-										
+									<li><a href="index-magazine.html"><div>Home - Magazine</div></a>
+										<ul>
+											<li><a href="index-magazine.html"><div>Magazine - Layout 1</div></a></li>
+											<li><a href="index-magazine-2.html"><div>Magazine - Layout 2</div></a></li>
+											<li><a href="index-magazine-3.html"><div>Magazine - Layout 3</div></a></li>
+										</ul>
 									</li>
-									
-									
-									
-									
-									
-									
+									<li><a href="landing.html"><div>Home - Landing Page</div></a>
+										<ul>
+											<li><a href="landing.html"><div>Landing Page - Layout 1</div></a></li>
+											<li><a href="landing-2.html"><div>Landing Page - Layout 2</div></a></li>
+											<li><a href="landing-3.html"><div>Landing Page - Layout 3</div></a></li>
+											<li><a href="landing-4.html"><div>Landing Page - Layout 4</div></a></li>
+											<li><a href="landing-5.html"><div>Landing Page - Layout 5</div></a></li>
+										</ul>
+									</li>
+									<li><a href="index-fullscreen-image.html"><div>Home - Full Screen</div></a>
+										<ul>
+											<li><a href="index-fullscreen-image.html"><div>Full Screen - Image</div></a></li>
+											<li><a href="index-fullscreen-slider.html"><div>Full Screen - Slider</div></a></li>
+											<li><a href="index-fullscreen-video.html"><div>Full Screen - Video</div></a></li>
+										</ul>
+									</li>
+									<li><a href="index-onepage.html"><div>Home - One Page</div></a>
+										<ul>
+											<li><a href="index-onepage.html"><div>One Page - Default</div></a></li>
+											<li><a href="index-onepage-2.html"><div>One Page - Submenu</div></a></li>
+											<li><a href="index-onepage-3.html"><div>One Page - Dots Style</div></a></li>
+										</ul>
+									</li>
+									<li><a href="index-wedding.html"><div>Home - Wedding</div></a></li>
+									<li><a href="index-restaurant.html"><div>Home - Restaurant</div></a></li>
+									<li><a href="index-events.html"><div>Home - Events</div></a></li>
+									<li><a href="index-parallax.html"><div>Home - Parallax</div></a></li>
+									<li><a href="index-app-showcase.html"><div>Home - App Showcase</div></a></li>
+									<li><a href="index-boxed.html"><div>Home - Boxed Layout</div></a></li>
 								</ul>
 							</li>
-							<li class="mega-menu"><a href="#"><div>Tickets</div></a>
-								
-							</li>
-							<li class="mega-menu"><a href="#"><div>Reviews</div></a>
-								
-							</li>
-							<li class="mega-menu"><a href="#"><div>About</div></a>
-								
-							</li>
-							<li><a href="#"><div>Contact</div></a>
-								
-							</li>
-							<li class="mega-menu"><a href="#"><div>Blog</div></a>
-								
-							</li>
+							<li><a href="#"><div><i class="icon-file-alt"></i>Menu</div></a></li>
+							<li><a href="#"><div><i class="icon-users2"></i>Staff</div></a></li>
+							<li><a href="#"><div><i class="icon-picture"></i>Gallery</div></a></li>
+							<li><a href="#"><div><i class="icon-star3"></i>Reviews</div></a></li>
+							<li><a href="#"><div><i class="icon-pencil2"></i>Blog</div></a></li>
+							<li><a href="#"><div><i class="icon-map-marker2"></i>Contact</div></a></li>
+							<li><a href="#"><div><i class="icon-th"></i>Demos</div></a></li>
 						</ul>
-
-
-
-						
 
 					</nav><!-- #primary-menu end -->
 
@@ -152,177 +377,267 @@
 
 		</header><!-- #header end -->
 
+		<div class="clear"></div>
+
 		<!-- Content
 		============================================= -->
 		<section id="content">
 
 			<div class="content-wrap">
 
-				<div class="parallax header-stick bottommargin-lg dark" style="padding: 60px 0; background-image: url('images/parallax/calendar.jpg'); height: auto;" data-stellar-background-ratio="0.5">
-
-					<div class="container clearfix">
-
-						<div class="events-calendar">
-							<div class="events-calendar-header clearfix">
-								<h2>Food Tours of New York</h2>
-								<h3 class="calendar-month-year">
-									<span id="calendar-month" class="calendar-month"></span>
-									<span id="calendar-year" class="calendar-year"></span>
-									<nav>
-										<span id="calendar-prev" class="calendar-prev"><i class="icon-chevron-left"></i></span>
-										<span id="calendar-next" class="calendar-next"><i class="icon-chevron-right"></i></span>
-										<span id="calendar-current" class="calendar-current" title="Got to current date"><i class="icon-reload"></i></span>
-									</nav>
-								</h3>
-							</div>
-							<div id="calendar" class="fc-calendar-container"></div>
-						</div>
-
-
-					</div>
-
-				</div>
-
 				<div class="container clearfix">
 
-					<div class="col_one_fourth nobottommargin">
-						<div class="feature-box fbox-effect fbox-center fbox-outline nobottomborder">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-calendar i-alt"></i></a>
+					<div class="col_one_third nobottommargin">
+						<div class="feature-box media-box">
+							<div class="fbox-media">
+								<img src="images/restaurant/thumb/3.jpg" alt="Why choose Us?">
 							</div>
-							<h3>Unique Experience<span class="subtitle"></span></h3>
+							<div class="fbox-desc">
+								<h3>Why choose Us.<span class="subtitle">Because of our expertise.</span></h3>
+								<p>Our unique expertise comes from a long history of tasting cultures all over the world.</p>
+							</div>
 						</div>
 					</div>
 
-					<div class="col_one_fourth nobottommargin">
-						<div class="feature-box fbox-effect fbox-center fbox-outline nobottomborder">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-map i-alt"></i></a>
+					<div class="col_one_third nobottommargin">
+						<div class="feature-box media-box">
+							<div class="fbox-media">
+								<img src="images/restaurant/thumb/16.jpg" alt="Why choose Us?">
 							</div>
-							<h3>Fantastic Locations<span class="subtitle"></span></h3>
+							<div class="fbox-desc">
+								<h3>Our Mission.<span class="subtitle">To Redefine Food Tour.</span></h3>
+								<p>All participants not just experience food, but also learn the history, culture, architecture, and neighborhood entertainment offerings.</p>
+							</div>
 						</div>
 					</div>
 
-					<div class="col_one_fourth nobottommargin">
-						<div class="feature-box fbox-effect fbox-center fbox-outline nobottomborder">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-microphone2 i-alt"></i></a>
+					<div class="col_one_third nobottommargin col_last">
+						<div class="feature-box media-box">
+							<div class="fbox-media">
+								<img src="images/restaurant/thumb/12.jpg" alt="Why choose Us?">
 							</div>
-							<h3>Interactive Walks<span class="subtitle"></span></h3>
-						</div>
-					</div>
-
-					<div class="col_one_fourth nobottommargin col_last">
-						<div class="feature-box fbox-effect fbox-center fbox-outline nobottomborder">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-food2 i-alt"></i></a>
+							<div class="fbox-desc">
+								<h3>What we Do.<span class="subtitle">Make our Customers Happy.</span></h3>
+								<p>Our goal is for everyone to return to these neighborhoods with confidence and take advantage of the wide array of food and fun cultural options. </p>
 							</div>
-							<h3>Delicious Samples<span class="subtitle"></span></h3>
 						</div>
 					</div>
 
 					<div class="clear"></div>
 
-					<div class="divider divider-center"><i class="icon-circle-blank"></i></div>
+				</div>
 
-					<h3>Upcoming Food Tours</h3>
+				<div class="section dark bottommargin-lg" style="height: 500px;">
+					<div class="container center clearfix vertical-middle">
 
-					<div id="posts" class="events small-thumbs">
+						<i class="i-plain i-xlarge icon-food2 divcenter bottommargin"></i>
 
-						<div class="entry clearfix">
-							<div class="entry-image">
-								<a href="#">
-									<img src="images/restaurant/thumb/15.jpg" alt="Inventore voluptates velit totam ipsa tenetur">
-									<div class="entry-date">24<span>Dec</span></div>
-								</a>
-							</div>
-							<div class="entry-c">
-								<div class="entry-title">
-									<h2><a href="https://www.eventbrite.com/e/original-e-village-food-culture-tourtm-52-tickets-37899477357?lang=en-us&locale=en_US&view=domo" target=_blank>Original E. Village Food & Culture Tour™ $52</a></h2>
-								</div>
-								<ul class="entry-meta clearfix">
-									<li><span class="label label-warning">Private</span></li>
-									<li><a href="#"><i class="icon-time"></i> 11:30 am - 2:15 pm</a></li>
-									<li><a href="#"><i class="icon-map-marker2"></i> E. Village, Manhattan</a></li>
-								</ul>
-								<div class="entry-content">
-									<p>Visiting East Village is like visiting the Food Haven of the World. Many ethnic groups and delicious eateries are gathered in East Village. You will TASTE ONLY THE BEST of its kind including japanese appretizers, falafel sandwiches, belgian fries, Mexican spicy hot chocolate, and more...</p>
-									<a href="#" class="btn btn-default" disabled="disabled">Buy Tickets</a> <a href="#" class="btn btn-danger">Read More</a>
-								</div>
-							</div>
+						<div class="slider-caption slider-caption-center">
+							<p data-animate="fadeInUp">Unique and Entertaining Experience of </p>
+							<h1 data-animate="fadeInUp" data-delay="200">Walking, Tasting, and Discovery</h1>
 						</div>
 
-						<div class="entry clearfix">
-							<div class="entry-image">
-								<a href="#">
-									<img src="images/restaurant/thumb/16.jpg" alt="Nemo quaerat nam beatae iusto minima vel">
-									<div class="entry-date">28<span>Dec</span></div>
-								</a>
+					</div>
+					<div class="video-wrap">
+						<video poster="images/videos/explore.jpg" preload="auto" loop autoplay>
+							<source src='images/videos/explore.mp4' type='video/mp4' />
+							<source src='images/videos/explore.webm' type='video/webm' />
+						</video>
+						<div class="video-overlay" style="background-color: rgba(0,0,0,0.35);"></div>
+					</div>
+				</div>
+
+				<div class="container clearfix">
+
+					<div class="col_one_fourth nobottommargin">
+						<div class="feature-box fbox-center fbox-plain nobottomborder">
+							<div class="fbox-icon">
+								<a href="#"><img src="images/icons/restaurant/glass.png" alt="Icon" data-animate="zoomIn"></a>
 							</div>
-							<div class="entry-c">
-								<div class="entry-title">
-									<h2><a href="https://www.eventbrite.com/e/sale-tastes-of-chinatown-tour-5799-5999-guided-by-local-chinese-tickets-14815366159" target=_blank>Tastes of Chinatown - Guided Only by Local Chinese</a></h2>
-								</div>
-								<ul class="entry-meta clearfix">
-									<li><span class="label label-info">Public</span></li>
-									<li><a href="#"><i class="icon-time"></i> 2:45 pm - 5:45 pm</a></li>
-									<li><a href="#"><i class="icon-map-marker2"></i> Chinatown, Manhattan</a></li>
-								</ul>
-								<div class="entry-content">
-									<p>This tour takes you to secret eateries, restaurants, and specialty shops – the authentic Chinese way! Be exposed to a wide variety of Chinese cultures including those of the Taiwanese, Shanghaiese, Pekingese, Cantonese, and Hongkonger. It will be an eye-opening and mouth-watering experience! More...</p>
-									<a href="#" class="btn btn-info">RSVP</a> <a href="#" class="btn btn-danger">Read More</a>
-								</div>
+							<h3>Exclusive Bar Hopping<span class="subtitle">Learn about the history, culture, and development of each ethnic wine or beer</span></h3>
+						</div>
+					</div>
+
+					<div class="col_one_fourth nobottommargin">
+						<div class="feature-box fbox-center fbox-plain nobottomborder">
+							<div class="fbox-icon">
+								<a href="#"><img src="images/icons/restaurant/fork.png" alt="Icon" data-animate="zoomIn" data-delay="200"></a>
 							</div>
+							<h3>Food & Culture Tour <span class="subtitle">Take you to a food tasting journey, where a wide array of the best New York foods can be found.</span></h3>
+						</div>
+					</div>
+
+					<div class="col_one_fourth nobottommargin">
+						<div class="feature-box fbox-center fbox-plain nobottomborder">
+							<div class="fbox-icon">
+								<a href="#"><img src="images/icons/restaurant/cup.png" alt="Icon" data-animate="zoomIn" data-delay="400"></a>
+							</div>
+							<h3>Private Tours<span class="subtitle">We would love to organize a fun, memorable and delicious tour that you are looking for<form></form></span></h3>
+						</div>
+					</div>
+
+					<div class="col_one_fourth nobottommargin col_last">
+						<div class="feature-box fbox-center fbox-plain nobottomborder">
+							<div class="fbox-icon">
+								<a href="#"><img src="images/icons/restaurant/tea.png" alt="Icon" data-animate="zoomIn" data-delay="600"></a>
+							</div>
+							<h3>Everything Chocolate<span class="subtitle">Taste only the finest chocolate drinks, desserts, and pastries in both authentic and exotic culinary worlds</span></h3>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+
+				</div>
+
+				<div class="section nobg topmargin-lg nobottommargin">
+					<div class="container clearfix">
+
+						<div class="col_half nobottommargin center">
+
+							<img src="images/restaurant/20.png" alt="Image" data-animate="fadeInLeft">
+
 						</div>
 
-						<div class="entry clearfix">
-							<div class="entry-image">
-								<a href="#">
-									<img src="images/restaurant/thumb/3.jpg" alt="Ducimus ipsam error fugiat harum recusandae">
-									<div class="entry-date">3<span>Jan</span></div>
-								</a>
+						<div class="col_half nobottommargin col_last">
+
+							<div class="heading-block" style="padding-top: 40px;">
+
+								<h2>Fresh from the Garden.</h2>
+								<span>Duis mollis, est non commodo luctus. Donec sed odio dui</span>
+
 							</div>
-							<div class="entry-c">
-								<div class="entry-title">
-									<h2><a href="https://www.eventbrite.com/e/sale-ultimate-new-york-food-culture-tourtm-4699-52-in-the-village-tickets-37899538540?lang=en-us&locale=en_US&view=domo" target=_blank>Ultimate New York Food & Culture Tour™ </a></h2>
-								</div>
-								<ul class="entry-meta clearfix">
-									<li><span class="label label-info">Public</span></li>
-									<li><a href="#"><i class="icon-time"></i> 2:45 pm - 5:30 pm</a></li>
-									<li><a href="#"><i class="icon-map-marker2"></i> Greenwich/West Village, Manhattan</a></li>
-								</ul>
-								<div class="entry-content">
-									<p>What exactly is New York City food? Is it the internationally well-known New York pizza, cheesecake, and hot dog, or the more local popular, ethnic Jamaican beef patty, Middle Eastern falafel sandwich, and Halal food? It’s not a surprise that it is a mix of both! After all, NYC is the ultimate melting pot of different cultures and cuisines. More...</p>
-									<a href="#" class="btn btn-default">Buy Tickets</a> <a href="#" class="btn btn-danger">Read More</a>
-								</div>
-							</div>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, repudiandae, maxime, earum, sapiente assumenda non odit laborum qui vero vel quos sint excepturi in laudantium.</p>
+
+							<a href="#" class="button button-border button-large button-rounded topmargin-sm noleftmargin">View Recipes</a>
+
 						</div>
 
-						<div class="entry clearfix">
-							<div class="entry-image">
-								<a href="#">
-									<img src="images/restaurant/thumb/12.jpg" alt="Nisi officia adipisci molestiae aliquam">
-									<div class="entry-date">7<span>Jan</span></div>
-								</a>
+					</div>
+				</div>
+
+				<div class="section nobg notopmargin noborder bottommargin-sm">
+					<div class="container clearfix">
+
+						<div class="col_half nobottommargin">
+
+							<div class="heading-block" style="padding-top: 40px;">
+
+								<h2>You'll be Lovin' It.</h2>
+								<span>Duis mollis, est non commodo luctus. Donec sed odio dui</span>
+
 							</div>
-							<div class="entry-c">
-								<div class="entry-title">
-									<h2><a href="https://www.eventbrite.com/e/sale-gourmet-fusion-dessert-tourtm-5999-tickets-34449971793?aff=es2" target=_blank>Gourmet & Fusion Dessert Tour</a></h2>
-								</div>
-								<ul class="entry-meta clearfix">
-									<li><span class="label label-warning">Private</span></li>
-									<li><a href="#"><i class="icon-time"></i> 11:00 am - 1:30 pm</a></li>
-									<li><a href="#"><i class="icon-map-marker2"></i> Noho/Union Square/Flat Iron District, Manhattan</a></li>
-								</ul>
-								<div class="entry-content">
-									<p>Tour presents only the cream of the crop—with tastings of the city’s finest hot chocolate, desserts, and pastries—offering an overall mouth-watering, tantalizing experience in the authentic and exotic culinary world! More...</p>
-									<a href="#" class="btn btn-info">RSVP</a> <a href="#" class="btn btn-danger">Read More</a>
-								</div>
-							</div>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, repudiandae, maxime, earum, sapiente assumenda non odit laborum qui vero vel quos sint excepturi in laudantium.</p>
+
+							<a href="#" class="button button-border button-large button-rounded topmargin-sm noleftmargin">More Details</a>
+
+						</div>
+
+						<div class="col_half bottommargin-sm center col_last">
+
+							<img src="images/restaurant/22.png" alt="Image" data-animate="fadeInRight">
+
+						</div>
+
+					</div>
+				</div>
+
+				<div class="container clearfix">
+
+					<div class="col_one_fourth nobottommargin">
+
+						<div class="fancy-title title-border">
+							<h4>Tour Hours</h4>
+						</div>
+
+						<ul class="iconlist nobottommargin">
+							<li><i class="icon-time color"></i> <strong>Mondays, Wednesdays:</strong> 11AM, 2:45PM, 6:30PM</li>
+							<li><i class="icon-time color"></i> <strong>Tuesdays, Fridays:</strong> 2:45PM, 6:30PM</li>
+							<li><i class="icon-time color"></i> <strong>Saturdays:</strong> 2:45PM</li>
+							<li><i class="icon-time color"></i> <strong>Sundays:</strong> 11AM, 2:45PM</li>
+						</ul>
+
+
+
+					</div>
+
+					<div class="col_one_fourth nobottommargin">
+
+						<div class="fancy-title title-border">
+							<h4>Neighborhoods</h4>
+						</div>
+
+						<ul>
+							<li>East Village (Multiculture)</li>
+							<li>China/Asian Town</li>
+							<li>Greenwich, West Village</li>
+                            <li>NoHo, Union Square, Flatiron District</li>
+						</ul>
+
+						<a href="#" class="button button-rounded button-dark noleftmargin"><i class="icon-file-alt"></i> Details</a>
+
+					</div>
+
+					<div class="col_half nobottommargin col_last">
+
+						<div class="fancy-title title-border">
+							<h4>Gallery</h4>
+						</div>
+
+						<div class="masonry-thumbs col-4 clearfix" data-lightbox="gallery" style="width: 100.3%;">
+							<a href="images/restaurant/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/3.jpg" alt="Gallery Thumb 1" data-animate="zoomIn"></a>
+							<a href="images/restaurant/5.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/5.jpg" alt="Gallery Thumb 2" data-animate="zoomIn" data-delay="100"></a>
+							<a href="images/restaurant/6.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/6.jpg" alt="Gallery Thumb 3" data-animate="zoomIn" data-delay="200"></a>
+							<a href="images/restaurant/7.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/7.jpg" alt="Gallery Thumb 4" data-animate="zoomIn" data-delay="300"></a>
+							<a href="images/restaurant/8.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/8.jpg" alt="Gallery Thumb 5" data-animate="zoomIn" data-delay="400"></a>
+							<a href="images/restaurant/10.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/10.jpg" alt="Gallery Thumb 6" data-animate="zoomIn" data-delay="500"></a>
+							<a href="images/restaurant/11.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/11.jpg" alt="Gallery Thumb 7" data-animate="zoomIn" data-delay="600"></a>
+							<a href="images/restaurant/12.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/12.jpg" alt="Gallery Thumb 8" data-animate="zoomIn" data-delay="700"></a>
 						</div>
 
 					</div>
 
+				</div>
+
+				<div class="section parallax noborder dark footer-stick topmargin-lg" style="background-image: url('images/restaurant/4.jpg'); padding: 80px 0;" data-stellar-background-ratio="0.3">
+					<div class="container clearfix">
+						<div class="col_three_fifth nobottommargin">
+
+							<div class="heading-block nobottomborder">
+								<h3>Reviews</h3>
+							</div>
+
+							<div class="fslider restaurant-reviews" data-arrows="false" data-animation="slide">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide">
+											<p class="lead">"NY Food Tours seems to have an uncanny knack for finding the best quality cuisine that you can’t find on the most pro-typical publications. These tours seem to know the best hidden gems along with mainstream restaurants that make your mouth water. I thoroughly enjoyed my NY Food Tour and Candy’s expertise is second-to-none. The next time I come to NY again, I will most definitely take one of these tours again and tell everyone I know about it, as the food just simply can’t be missed."</p>
+											<span><strong>Dipesh Mukerji</strong> August 21st, 2009 at 1:48 pm</span>
+										</div>
+										<div class="slide">
+											<p class="lead">"Candy knows her food and has been anxiously engaged in creating a fun, high-quality gastronomic experience for a while now. I am not from New York and have no idea where to get the best pasta or dim sum in the city, but Candy does. The next time my family is in New York, we are going to have to check out NY Food Tours!"</p>
+											<span><strong>Joseph Hoyt</strong>August 20th, 2009 at 4:26 pm</span><br>
+											
+										</div>
+										<div class="slide">
+											<p class="lead">"You will have great time with NY food tours. Candy’s careful selection of foods and her desire about foods will bring you the best taste of New York. Just wish to have time to join all the NY food tours."</p>
+											<span><strong>Quoc Tuan</strong>August 20th, 2009 at 1:40 pm</span><br>
+											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-empty"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<style>
+								.restaurant-reviews .flex-control-nav {
+									top: auto;
+									bottom: 25px;
+								}
+							</style>
+
+						</div>
+					</div>
 				</div>
 
 			</div>
@@ -331,10 +646,25 @@
 
 		<!-- Footer
 		============================================= -->
-
 		<footer id="footer" class="dark">
 
-			
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix">
+
+					<div class="col_full">
+
+						<div class="heading-block center nobottommargin">
+							<h2>Need to join a food tour? <strong>Call +347.559.0111</strong></h2>
+						</div>
+
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
 
 			<!-- Copyrights
 			============================================= -->
@@ -343,7 +673,7 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2018 All Rights Reserved by Food Tours of NY Inc.<br>
+						Copyrights &copy; 2018 All Rights Reserved by foodtoursofny Inc.<br>
 						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 					</div>
 
@@ -392,7 +722,6 @@
 
 						<div class="clear"></div>
 
-						<i class="icon-envelope2"></i> support@foodtoursofny.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> 347-559-0111 <span class="middot">&middot;</span> <i class="icon-skype2"></i> Food Tours of NY Inc
 					</div>
 
 				</div>
@@ -406,46 +735,147 @@
 	<!-- Go To Top
 	============================================= -->
 	<div id="gotoTop" class="icon-angle-up"></div>
-<!-- 
+
+	<!-- External JavaScripts
+	============================================= -->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
-	<script type="text/javascript" src="js/jquery.calendario.js"></script>
-	<script type="text/javascript" src="js/events-data.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
- -->
-   <script type="text/javascript" src="/dist/js/vendor.min.js"></script>
+
+	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
 
 	<script type="text/javascript">
 
-		var cal = $( '#calendar' ).calendario( {
-				onDayClick : function( $el, $contentEl, dateProperties ) {
+		var tpj=jQuery;
+		tpj.noConflict();
 
-					for( var key in dateProperties ) {
-						console.log( key + ' = ' + dateProperties[ key ] );
-					}
+		tpj(document).ready(function() {
 
-				},
-				caldata : canvasEvents
-			} ),
-			$month = $( '#calendar-month' ).html( cal.getMonthName() ),
-			$year = $( '#calendar-year' ).html( cal.getYear() );
+			var apiRevoSlider = tpj('.tp-banner').show().revolution(
+			{
+				sliderType:"standard",
+				jsFileLocation:"include/rs-plugin/js/",
+				dottedOverlay:"none",
+				delay:16000,
+				startwidth:1140,
+				startheight:600,
+				hideThumbs:200,
 
-		$( '#calendar-next' ).on( 'click', function() {
-			cal.gotoNextMonth( updateMonthYear );
-		} );
-		$( '#calendar-prev' ).on( 'click', function() {
-			cal.gotoPreviousMonth( updateMonthYear );
-		} );
-		$( '#calendar-current' ).on( 'click', function() {
-			cal.gotoNow( updateMonthYear );
-		} );
+				thumbWidth:100,
+				thumbHeight:50,
+				thumbAmount:5,
 
-		function updateMonthYear() {
-			$month.html( cal.getMonthName() );
-			$year.html( cal.getYear() );
-		};
+				navigation: {
+                    keyboardNavigation: "on",
+                    keyboard_direction: "horizontal",
+                    mouseScrollNavigation: "off",
+                    onHoverStop: "off",
+                    touch: {
+                        touchenabled: "on",
+                        swipe_threshold: 75,
+                        swipe_min_touches: 1,
+                        swipe_direction: "horizontal",
+                        drag_block_vertical: false
+                    },
+                    thumbnails: {
+                        style: "hesperiden",
+                        enable: true,
+                        width: 100,
+                        height: 50,
+                        min_width: 100,
+                        wrapper_padding: 5,
+                        wrapper_color: "#ffffff",
+                        wrapper_opacity: "0.5",
+                        tmp: '<span class="tp-thumb-image"></span><span class="tp-thumb-title">{{title}}</span>',
+                        visibleAmount: 5,
+                        hide_onmobile: false,
+                        hide_onleave: false,
+                        direction: "horizontal",
+                        span: false,
+                        position: "inner",
+                        space: 5,
+                        h_align: "right",
+                        v_align: "bottom",
+                        h_offset: 20,
+                        v_offset: 50
+                    }
+                },
 
-	</script>
+				touchenabled:"on",
+				onHoverStop:"on",
+
+				swipe_velocity: 0.7,
+				swipe_min_touches: 1,
+				swipe_max_touches: 1,
+				drag_block_vertical: false,
+
+										parallax:"mouse",
+				parallaxBgFreeze:"on",
+				parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+
+				keyboardNavigation:"off",
+
+				navigationHAlign:"center",
+				navigationVAlign:"bottom",
+				navigationHOffset:0,
+				navigationVOffset:20,
+
+				soloArrowLeftHalign:"left",
+				soloArrowLeftValign:"center",
+				soloArrowLeftHOffset:20,
+				soloArrowLeftVOffset:0,
+
+				soloArrowRightHalign:"right",
+				soloArrowRightValign:"center",
+				soloArrowRightHOffset:20,
+				soloArrowRightVOffset:0,
+
+				shadow:0,
+				fullWidth:"off",
+				fullScreen:"on",
+
+				spinner:"spinner4",
+
+				stopLoop:"off",
+				stopAfterLoops:-1,
+				stopAtSlide:-1,
+
+				shuffle:"off",
+
+				autoHeight:"off",
+				forceFullWidth:"off",
+
+
+
+				hideThumbsOnMobile:"off",
+				hideNavDelayOnMobile:1500,
+				hideBulletsOnMobile:"off",
+				hideArrowsOnMobile:"off",
+				hideThumbsUnderResolution:0,
+
+				hideSliderAtLimit:0,
+				hideCaptionAtLimit:0,
+				hideAllCaptionAtLilmit:0,
+				startWithSlide:0,
+			});
+
+		});
+
+	</script><!-- END REVOLUTION SLIDER -->
 
 </body>
 </html>
