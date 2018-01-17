@@ -80,9 +80,9 @@
 			<div class="tp-banner-container">
 				<div class="tp-banner" >
 					<ul>    <!-- SLIDE  -->
-						<li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/restaurant/slider/thumb/2.jpg" data-delay="12000"  data-saveperformance="off" data-title="Delicious Recipes">
+						<li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="/images/restaurant/slider/thumb/2.jpg" data-delay="12000"  data-saveperformance="off" data-title="Delicious Recipes">
 							<!-- MAIN IMAGE -->
-							<img src="images/restaurant/slider/2.jpg"  alt="kenburns1"  data-bgposition="left center" data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right center">
+							<img src="/images/restaurant/slider/2.jpg"  alt="kenburns1"  data-bgposition="left center" data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right center">
 							<!-- LAYERS -->
 
 							<!-- LAYER NR. 2 -->
@@ -176,7 +176,7 @@
 							data-elementdelay="0.01"
 							data-endelementdelay="0.1"
 							data-endspeed="1000"
-							data-endeasing="Power4.easeIn" style="z-index: 3; color: #222; font-size: 60px;">Food Tours of New York</div>
+							data-endeasing="Power4.easeIn" style="z-index: 3; color: #222; font-size: 60px;">Food Tours of NY</div>
 
 							<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text tleft"
 							data-x="0"
@@ -240,7 +240,7 @@
 							data-elementdelay="0.01"
 							data-endelementdelay="0.1"
 							data-endspeed="1000"
-							data-endeasing="Power4.easeIn" style="z-index: 3;">Food Tours of New York</div>
+							data-endeasing="Power4.easeIn" style="z-index: 3;">Full Featured Menu</div>
 
 							<div class="tp-caption customin ltl tp-resizeme revo-slider-desc-text"
 							data-x="245"
@@ -289,84 +289,22 @@
 					<!-- Primary Navigation
 					============================================= -->
 					<nav id="primary-menu" class="style-5">
-
+                    <!--
 						<ul class="norightborder norightpadding norightmargin">
+                    -->
+						<ul class="one-page-menu norightborder norightpadding norightmargin" data-easing="easeInOutExpo" data-speed="1500">
+	
 							<li class="current"><a href="#"><div><i class="icon-home2"></i>Home</div></a>
-								<ul>
-									<li><a href="index-corporate.html"><div>Home - Corporate</div></a>
-										<ul>
-											<li><a href="index-corporate.html"><div>Corporate - Layout 1</div></a></li>
-											<li><a href="index-corporate-2.html"><div>Corporate - Layout 2</div></a></li>
-											<li><a href="index-corporate-3.html"><div>Corporate - Layout 3</div></a></li>
-											<li><a href="index-corporate-4.html"><div>Corporate - Layout 4</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-portfolio.html"><div>Home - Portfolio</div></a>
-										<ul>
-											<li><a href="index-portfolio.html"><div>Portfolio - Layout 1</div></a></li>
-											<li><a href="index-portfolio-2.html"><div>Portfolio - Layout 2</div></a></li>
-											<li><a href="index-portfolio-3.html"><div>Portfolio - Masonry</div></a></li>
-											<li><a href="index-portfolio-4.html"><div>Portfolio - AJAX</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-blog.html"><div>Home - Blog</div></a>
-										<ul>
-											<li><a href="index-blog.html"><div>Blog - Layout 1</div></a></li>
-											<li><a href="index-blog-2.html"><div>Blog - Layout 2</div></a></li>
-											<li><a href="index-blog-3.html"><div>Blog - Layout 3</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-shop.html"><div>Home - Shop</div></a>
-										<ul>
-											<li><a href="index-shop.html"><div>Shop - Layout 1</div></a></li>
-											<li><a href="index-shop-2.html"><div>Shop - Layout 2</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-magazine.html"><div>Home - Magazine</div></a>
-										<ul>
-											<li><a href="index-magazine.html"><div>Magazine - Layout 1</div></a></li>
-											<li><a href="index-magazine-2.html"><div>Magazine - Layout 2</div></a></li>
-											<li><a href="index-magazine-3.html"><div>Magazine - Layout 3</div></a></li>
-										</ul>
-									</li>
-									<li><a href="landing.html"><div>Home - Landing Page</div></a>
-										<ul>
-											<li><a href="landing.html"><div>Landing Page - Layout 1</div></a></li>
-											<li><a href="landing-2.html"><div>Landing Page - Layout 2</div></a></li>
-											<li><a href="landing-3.html"><div>Landing Page - Layout 3</div></a></li>
-											<li><a href="landing-4.html"><div>Landing Page - Layout 4</div></a></li>
-											<li><a href="landing-5.html"><div>Landing Page - Layout 5</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-fullscreen-image.html"><div>Home - Full Screen</div></a>
-										<ul>
-											<li><a href="index-fullscreen-image.html"><div>Full Screen - Image</div></a></li>
-											<li><a href="index-fullscreen-slider.html"><div>Full Screen - Slider</div></a></li>
-											<li><a href="index-fullscreen-video.html"><div>Full Screen - Video</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-onepage.html"><div>Home - One Page</div></a>
-										<ul>
-											<li><a href="index-onepage.html"><div>One Page - Default</div></a></li>
-											<li><a href="index-onepage-2.html"><div>One Page - Submenu</div></a></li>
-											<li><a href="index-onepage-3.html"><div>One Page - Dots Style</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-wedding.html"><div>Home - Wedding</div></a></li>
-									<li><a href="index-restaurant.html"><div>Home - Restaurant</div></a></li>
-									<li><a href="index-events.html"><div>Home - Events</div></a></li>
-									<li><a href="index-parallax.html"><div>Home - Parallax</div></a></li>
-									<li><a href="index-app-showcase.html"><div>Home - App Showcase</div></a></li>
-									<li><a href="index-boxed.html"><div>Home - Boxed Layout</div></a></li>
-								</ul>
+								
 							</li>
-							<li><a href="#"><div><i class="icon-file-alt"></i>Menu</div></a></li>
-							<li><a href="#"><div><i class="icon-users2"></i>Staff</div></a></li>
-							<li><a href="#"><div><i class="icon-picture"></i>Gallery</div></a></li>
-							<li><a href="#"><div><i class="icon-star3"></i>Reviews</div></a></li>
-							<li><a href="#"><div><i class="icon-pencil2"></i>Blog</div></a></li>
-							<li><a href="#"><div><i class="icon-map-marker2"></i>Contact</div></a></li>
-							<li><a href="#"><div><i class="icon-th"></i>Demos</div></a></li>
+							<li><a href="#" data-href="#section-overview"><div><i class="icon-file-alt"></i>Overview</div></a></li>
+							<li><a href="#" data-href="#section-facts"><div><i class="icon-users2"></i>Facts</div></a></li>
+							<li><a href="#" data-href="#section-bonus"><div><i class="icon-th"></i>Bonus</div></a></li>
+							<li><a href="#" data-href="#section-gallery"><div><i class="icon-picture"></i>Gallery</div></a></li>
+							<li><a href="#" data-href="#section-review"><div><i class="icon-star3"></i>Reviews</div></a></li>
+							
+							<li><a href="#" data-href="#section-contact"><div><i class="icon-map-marker2"></i>Contact</div></a></li>
+							
 						</ul>
 
 					</nav><!-- #primary-menu end -->
@@ -385,7 +323,7 @@
 
 			<div class="content-wrap">
 
-				<div class="container clearfix">
+				<div id="section-overview" class="container clearfix">
 
 					<div class="col_one_third nobottommargin">
 						<div class="feature-box media-box">
@@ -427,7 +365,7 @@
 
 				</div>
 
-				<div class="section dark bottommargin-lg" style="height: 500px;">
+				<div id="section-facts" class="section dark bottommargin-lg" style="height: 500px;">
 					<div class="container center clearfix vertical-middle">
 
 						<i class="i-plain i-xlarge icon-food2 divcenter bottommargin"></i>
@@ -489,7 +427,7 @@
 
 				</div>
 
-				<div class="section nobg topmargin-lg nobottommargin">
+				<div id="section-bonus" class="section nobg topmargin-lg nobottommargin">
 					<div class="container clearfix">
 
 						<div class="col_half nobottommargin center">
@@ -502,14 +440,14 @@
 
 							<div class="heading-block" style="padding-top: 40px;">
 
-								<h2>Fresh from the Garden.</h2>
-								<span>Duis mollis, est non commodo luctus. Donec sed odio dui</span>
+								<h2>Food Haven of the World.</h2>
+								<span>Sample multiple delicious dishes and cuisines.</span>
 
 							</div>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, repudiandae, maxime, earum, sapiente assumenda non odit laborum qui vero vel quos sint excepturi in laudantium.</p>
+							<p>Visit secret eateries, restaurants, and specialty shops and more!</p>
 
-							<a href="#" class="button button-border button-large button-rounded topmargin-sm noleftmargin">View Recipes</a>
+							<a href="#" class="button button-border button-large button-rounded topmargin-sm noleftmargin">More details</a>
 
 						</div>
 
@@ -524,11 +462,11 @@
 							<div class="heading-block" style="padding-top: 40px;">
 
 								<h2>You'll be Lovin' It.</h2>
-								<span>Duis mollis, est non commodo luctus. Donec sed odio dui</span>
+								<span>Tour presnets only the cream of the crop-with tastings of the citiy's finest </span>
 
 							</div>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, repudiandae, maxime, earum, sapiente assumenda non odit laborum qui vero vel quos sint excepturi in laudantium.</p>
+							<p>You are going to explore a wide variety of foods that you have never thought of, or some you may have never even heard of!</p>
 
 							<a href="#" class="button button-border button-large button-rounded topmargin-sm noleftmargin">More Details</a>
 
@@ -543,7 +481,7 @@
 					</div>
 				</div>
 
-				<div class="container clearfix">
+				<div id="section-gallery" class="container clearfix">
 
 					<div class="col_one_fourth nobottommargin">
 
@@ -601,7 +539,7 @@
 				</div>
 
 				<div class="section parallax noborder dark footer-stick topmargin-lg" style="background-image: url('images/restaurant/4.jpg'); padding: 80px 0;" data-stellar-background-ratio="0.3">
-					<div class="container clearfix">
+					<div id="section-review" class="container clearfix">
 						<div class="col_three_fifth nobottommargin">
 
 							<div class="heading-block nobottomborder">
@@ -614,11 +552,12 @@
 										<div class="slide">
 											<p class="lead">"NY Food Tours seems to have an uncanny knack for finding the best quality cuisine that you can’t find on the most pro-typical publications. These tours seem to know the best hidden gems along with mainstream restaurants that make your mouth water. I thoroughly enjoyed my NY Food Tour and Candy’s expertise is second-to-none. The next time I come to NY again, I will most definitely take one of these tours again and tell everyone I know about it, as the food just simply can’t be missed."</p>
 											<span><strong>Dipesh Mukerji</strong> August 21st, 2009 at 1:48 pm</span>
+											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-empty"></i>
 										</div>
 										<div class="slide">
 											<p class="lead">"Candy knows her food and has been anxiously engaged in creating a fun, high-quality gastronomic experience for a while now. I am not from New York and have no idea where to get the best pasta or dim sum in the city, but Candy does. The next time my family is in New York, we are going to have to check out NY Food Tours!"</p>
 											<span><strong>Joseph Hoyt</strong>August 20th, 2009 at 4:26 pm</span><br>
-											
+											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-empty"></i>
 										</div>
 										<div class="slide">
 											<p class="lead">"You will have great time with NY food tours. Candy’s careful selection of foods and her desire about foods will bring you the best taste of New York. Just wish to have time to join all the NY food tours."</p>
@@ -652,12 +591,12 @@
 
 				<!-- Footer Widgets
 				============================================= -->
-				<div class="footer-widgets-wrap clearfix">
+				<div id="section-contact" class="footer-widgets-wrap clearfix">
 
 					<div class="col_full">
 
 						<div class="heading-block center nobottommargin">
-							<h2>Need to join a food tour? <strong>Call +347.559.0111</strong></h2>
+							<h2>Want to attend a food tour? <strong>Call +347.559.0111</strong></h2>
 						</div>
 
 					</div>
@@ -768,7 +707,7 @@
 			var apiRevoSlider = tpj('.tp-banner').show().revolution(
 			{
 				sliderType:"standard",
-				jsFileLocation:"include/rs-plugin/js/",
+				jsFileLocation:"/include/rs-plugin/js/",
 				dottedOverlay:"none",
 				delay:16000,
 				startwidth:1140,
@@ -800,7 +739,7 @@
                         wrapper_padding: 5,
                         wrapper_color: "#ffffff",
                         wrapper_opacity: "0.5",
-                        tmp: '<span class="tp-thumb-image"></span><span class="tp-thumb-title">{{title}}</span>',
+                        tmp: '<span class="tp-thumb-image"></span><span class="tp-thumb-title"></span>',
                         visibleAmount: 5,
                         hide_onmobile: false,
                         hide_onleave: false,
