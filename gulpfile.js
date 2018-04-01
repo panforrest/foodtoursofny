@@ -11,7 +11,17 @@ gulp.task('build', function(){
         [
             './public/js/jquery.js',
             './public/js/plugins.js',
-            './public/js/functions.js'
+            './public/js/functions.js',
+            // './public/js/include/rs-plugin/js/jquery.themepunch.tools.min.js',
+            // './public/js/include/rs-plugin/js/jquery.themepunch.revolution.min.js',
+            // './public/js/include/rs-plugin/js/extensions/revolution.extension.video.min.js',
+            // './public/js/include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js',
+            // './public/js/include/rs-plugin/js/extensions/revolution.extension.actions.min.js',
+            // './public/js/include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js',
+            // './public/js/include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js',
+            // './public/js/include/rs-plugin/js/extensions/revolution.extension.navigation.min.js',
+            // './public/js/include/rs-plugin/js/extensions/revolution.extension.migration.min.js',
+            // './public/js/include/rs-plugin/js/extensions/revolution.extension.parallax.min.js'
         ]
     )
     .pipe(gp_concat('gulp-concat.js'))
@@ -32,7 +42,6 @@ gulp.task('css', function(){
             './public/css/font-icons.css',
             './public/css/animate.css',
             './public/css/magnific-popup.css',
-            './public/css/calendar.css',
             './public/css/responsive.css'
 
         
